@@ -16,23 +16,6 @@ gr="\033[1;32m"
 cy="\033[1;36m"
 SLEEP_TIME = 3
 
-#..........................
-line1="9193577316"
-api_id1=68710
-api_hash1="fd4a79282d73d64dea97133a8083c296"
-#..........................
-line2="9910908578"
-api_id2=2181111
-api_hash2="4c5d1862cbc3dfd5573b3ae08c14ba58"
-#..........................
-token = "306043176:AAGnthokbXUWDxW7H5ETX4u1DFSUptpnMv0" #iran_to_do_bot
-#..........................
-accounts={
-    "acc1":[line1,api_id1,api_hash1],
-    "acc2":[line2,api_id2,api_hash2]
-    }
-
-
 #import logging
 #logging.basicConfig(level=logging.DEBUG)
 class send_message_telegram():
